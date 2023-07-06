@@ -1,0 +1,42 @@
+fragment UserFragment on User {
+  _id
+  email
+  emails {
+    type
+    email
+  }
+  merchantId
+  title
+  firstName
+  lastName
+  phoneNumbers {
+    countryCode
+    phoneNumber
+  }
+  allotedStore {
+    storeId
+    branchCode
+    branchName
+  }
+  addresses {
+    name
+    addressLine1
+    addressLine2
+    city
+    state
+    zip
+    country
+    landmark
+    isDefault
+  }
+  profileImage
+  documents
+  accessLevels {
+    role
+    hierarchy
+  }
+  isActive
+  remark
+  createdAt
+  updatedAt
+}

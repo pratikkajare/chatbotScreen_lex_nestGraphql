@@ -1,0 +1,14 @@
+fragment HierarchyFragment on Hierarchy {
+  _id
+  code
+  name
+  type
+  supplementary
+  parentId
+  ancestors
+  ancestorObjects
+  status
+  updatedBy
+  createdAt
+  updatedAt
+}

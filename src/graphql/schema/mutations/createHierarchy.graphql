@@ -1,0 +1,7 @@
+#import "../fragments/hierarchy.graphql"
+
+mutation CreateHierarchy($dataInput: [DataInput!]!) {
+  createHierarchy(dataInput: $dataInput) {
+    ...HierarchyFragment
+  }
+}

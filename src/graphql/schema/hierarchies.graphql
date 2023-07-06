@@ -1,0 +1,7 @@
+#import "./fragments/hierarchy.graphql"
+
+query Hierarchies {
+  hierarchies {
+    ...HierarchyFragment
+  }
+}
